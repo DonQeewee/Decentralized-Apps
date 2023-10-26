@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#DCD1D1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:fontFamily="@font/aldrich"
+            android:text="CARVIMIAL FITNESS CENTER"
+            android:textAlignment="center"
+            android:textColor="#A6CC43CA"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/head"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="90dp"
+            android:hint="first name"
+            android:textColorHint="#31CC43CA" />
+
+        <EditText
+            android:id="@+id/lname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/fname"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginTop="40dp"
+            android:hint="last name"
+            android:textColorHint="#31CC43CA" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/lname"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/my_btn_curvature"
+            android:fontFamily="@font/chewy"
+            android:text="Continue"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
